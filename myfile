@@ -1,5 +1,5 @@
 pipeline {
-    agent myownbabuserver
+    agent mytejaserver
     
     tools {
         maven 'M2_HOME'
