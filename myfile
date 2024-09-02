@@ -1,5 +1,5 @@
 pipeline {
-    agent myserver123
+    agent myowntejaserver
     
     tools {
         maven 'M2_HOME'
