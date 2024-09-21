@@ -14,4 +14,4 @@
     become : yes
     become_user : root
   - name : Deploy the image and run as a container
-    command : docker run -d -p 8080:8080 cbabu85/addbook:10.0
+    command : docker run -d -p 8080:8080 tejaM/addbook:10.0
